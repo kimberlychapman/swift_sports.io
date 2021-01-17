@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Swift Sports</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <!-- <link rel="stylesheet" href="./style3.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="ihover-gh-pages/dist/styles/main.css">
+  <link href="http://fonts.googleapis.com/css?family=Lustria|Lato:300,400,700,400italic" rel="stylesheet" type="text/css">
+  <!-- <script LEsrc="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+   <script type = "text/javascript"
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script> -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-58400131-2', 'auto');
+    ga('send', 'pageview');
+
+  </script>     
+<script>
+  function remove(me) {
+  document.getElementById(me).outerHTML = ""
+  }
+  
+</script>
+</head>
+
+
+<script>
+  $('.main-nav').on('click',function(){
+    $('ul').slideToggle(280);
+  });
+</script>
+<script type="text/javascript" src="script.js"></script>
+
+
+</head>
+<!-- LEAVE GREEN partial:index.partial.html -->
+<section>
+  <audio id="minors" src="audio/minors_noise.mp3" type="audio/mp3"></audio>
+  <audio id="college" src="audio/college.mp3" type="audio/mp3"></audio>
+  <audio id="wap-clean" src="audio/wap-clean.m4a" type="audio/m4a"></audio>
+  <audio id="wap-explicit" src="audio/wap-explicit.m4a" type="audio/m4a"></audio>
+  <audio id="right-explicit" src="audio/right-explicit.m4a" type="audio/m4a"></audio>
+  <audio id="night-explicit" src="audio/night-explicit.m4a" type="audio/m4a"></audio>
+</section>
+<!-- <div class="detail1">Check 1 2</div> -->
+<div class="wrapper">
+    <div class="sidebar">
+      <div class="title" onclick="showExecute()" ondblclick="hideExecute()">Run Code</div>
+
+    <ul class="nav">
+      <li> 
+
+      <!-- <a id="test" onclick=countLoops() ondblclick=totalLoops()>var down=1</a> -->
+
+        <a id="test0" onmouseover="showWork()" onmouseout="hideWork()">
+            <span id ="blue1">While (true)</span>
+            <span id="bracket1"> &nbsp{</span>
+        </a>   
+        <a id="test3" onmouseover="showAgain()" onmouseout="hideAgain()">
+            <span id="blue2" onmouseover="explainAction2()" onmouseout="hideAction2()">if</span>
+            <span id="if-statement">&nbsp isOpen</span>
+            <br>
+            <span id="bracket2">&nbsp {</span>
+            <br>
+        </a> 
+        <a id="test4">
+            <span id="if-statement2">passTheBall( );</span>
+            <span id="bracket3">&nbsp }</span>
+        </a>
+        <a id="test6" onmouseover="showKeep()" onmouseout="hideKeep()">
+          <span id="blue3">else if</span>
+          <!-- <span id="bracket4">&nbsp {</span> -->
+        </a>
+        <a id="test5">
+          <span id="else-if">&nbsp ! isOpen</span>
+          <span id="bracket5">&nbsp {</span>
+        </a>
+        <a id="test7">
+          <span id=else2>dribbleTheBall( );</span>
+          <br>
+          <span id="bracket6">&nbsp }</span>
+        </a>
+        <a id="test8"  onmouseover="showSpans()" onmouseout="hideSpans()">
+          <span id="blue4">else if</span>
+          <!-- <br>
+          <span id="else3">inPositiontoScore</span> -->
+        </a>
+        <a id="test9">
+          <span id="else3">inPositionToScore( )</span>
+          <span id="bracket7">&nbsp {</span>
+        </a>
+        <a id="test11">
+          <span id="else4">takeTheShot( );</span>
+          <span id="bracket8">&nbsp }</span>
+          <br>
+          <span id="bracket9">&nbsp }</span>
+        </a>
+
+
+        <!-- <a id="test4">if receiverIsOpen &nbsp<span id="emphasis3"> {</span></a>
+        <a id="test10">throwPassToReceiver( ) &nbsp<span id="emphasis3"> }</span></a>
+        <a id="test5"> else if ! receiverIsOpen && runningBackIsOpen<span id="emphasis3"> {</span></a>
+        <a id="test6">handOffOrPassToBack( ) &nbsp<span id="emphasis3"> }</span></a>
+        <a id="test7">else if ! receiverOpen &&<br> ! runningBackOpen<span id="emphasis3"> &nbsp {</span></a>
+        <a id="test8">qbScramble( ) &nbsp <span id="emphasis3"> }</span></a>
+        <a id="test9">down +=1 &nbsp<span id="emphasis2"> }</span></a> -->
+         
+      </li>
+
+    </ul>
+  </div>
+  <div class="content content-is-open">
+    <span class='side-panel-toggle' onclick="closeDetails()">
+      <i class="fa fa-bars" style="color:white"></i>
+    </span>
+
+    <hr>
+  </div>
+</div>
+
+  <!-- <div class="ih-item square colored effect6 from_left_and_right"><a href="#">
+    <div class="img"><img src="img/the_pg.jpg" alt="img"></div>
+    <div class="info">
+      <h3>The Point Guard</h3>
+    </div></a>
+</div> -->
+  
+<!-- <div class="ih-item circle effect13 from_left_and_right"><a href="#">
+    <div class="img"><img src="img/pass_ball.png" alt="img"></div>
+    <div class="info">
+      <div class="info-back">
+        <h3>#1 Pass</h3>
+        <p>Pass the ball to a teammate to get into scoring position.</p>
+      </div>
+    </div></a> -->
+<!-- </div> -->
+<!-- <div class="ih-item circle effect13_2 from_left_and_right"><a href="#">
+    <div class="img"><img src="img/dribble.png" alt="img"></div>
+    <div class="info">
+      <div class="info-back">
+        <h3>#2 Dribble</h3>
+        <p>Dribble the ball to find an open pass.</p>
+      </div>
+    </div></a> -->
+<!-- </div> -->
+<!-- <div class="ih-item circle effect13_3 from_left_and_right"><a href="#">
+    <div class="img"><img src="img/3-pointer.png" alt="img"></div>
+    <div class="info">
+      <div class="info-back">
+        <h3>#3 Take the Shot</h3>
+        <p>Be ready to take the shot if in the position to score.</p>
+      </div>
+    </div></a> -->
+</div>
+<div id="execute">Executing their Code</div>
+<div id="pg" onclick="showTask()" ondblclick="hideTask()">
+  <div id="play-pg">Score a Goal: Use a Trick Move and Juggle the Ball.</div>
+  <img id="the-drop" src="img/drop-down-arrow.png">
+</div>
+<div id ="task">
+  <!-- <div id="close-box" onclick="hideTask()">X</div><br> -->
+    So far, you have made your bot move around and do trick moves to score a goal.  
+    Today you will learn a new command: &nbsp <span style="font-weight:bold;">juggleBall( )</span><img id="juggle" src="img/spring-square.png">
+    <div id="juggle-video">
+      <div id="how-to-juggle">Juggling the Ball</div>
+      <img id="clip" src="img/video-clip.png">
+    </div>
+      1. Enter commands to move Byte to the trick square, then do a 
+      <span id="trick" onmouseover="trickStyle()" onmouseleave="noTrickStyle()">trick move.</span>
+      <br>
+      <br>
+      2. Continue entering commands to move Byte to the juggle square, then <span id="juggling" onmouseover="juggleStyle()" onmouseleave="noJuggleStyle()"">juggle the ball</span>.
+      <br>
+      <br>
+      3.Finally, <span id="score" onmouseover="scoreStyle()" onmouseLeave="noScoreStyle()">score a goal.</span>
+    <div id="line">
+    </div>
+    </div>
+
+
+    <!-- <div id="direction1">&#8226; Juggling the Ball is when a player moves the ball by bouncing it off of their leg or upper body.</div>
+    <div id="direction2">&#8226; Juggling the ball lifts the ball off of the ground, making it harder for the players on the other team to kick the ball away from them.</div>
+    <div id="your-job">Your Job:</div> -->
+    <!-- <br>
+    <br>
+    <span style="color:dodgerblue; font-weight:bold;">Review:</span>
+     "if" and "else if" statements, using the NOT Operator.
+    <br>
+    <span style="color:dodgerblue; font-weight:bold;">New:</span> While Loops.<br> -->
+    <!-- Each position has two different roles:<br><br> 
+    1. The role they play While on Offense<br>
+    2. The role they play While on Defense.<br><br>
+    While on Offense, the role of the Point Guard is to control the ball and make sure that it gets to the right players at the right time— so that they can score.  Point Guards accomplish this in many different ways; the Point Guard in this scenario does the following:<br>
+    <br>
+    &#x25cf; Their first choice is to find a teammate that <span class="underline">is Open</span>, and pass the ball.<br>
+    &#x25cf; When a teammate <span class="underline">is Not Open</span>, they dribble the ball to find an open pass.<br>
+    &#x25cf; Finally, if they are the one who is in the best <span class="underline">position to score</span>, they take the shot.<br><br> -->
+    <!-- Since this is the role a Point Guard plays on Offense, we will have Offense = true.  That means that the Point Guard plays this role WHILE they are on Offense.  When Offense = false, that means they are on Defense so their role would be different. -->
+
+    <!-- Since this is the role a Point Guard plays on Offense, we will have Offense = true.  This means that the Point Guard plays this role WHILE they are on Offense.  When Offense = false, this means they are on defense so this code wouldn't apply to them then.
+    <br>YOUR TASK<br>
+    1. Modify the While statement to show that this code is followed While Offense is true.<br>
+    2. Complete the if and else if statements for what the Point Guard should do in different situations: teamMateIsOpen, ! teamMateIsOpen, openShot. -->
+
+
+<div class="your-code">
+  <div id="your-code-title">Your Task</div>
+  <img id="the-dropdown" src="img/drop-down-arrow.png" onclick="showYourCode()">
+</div>
+<div id="write-code">
+<div id="close-box"onclick="closeTaskPanel()">X</div><br>
+    <span id="small">Since this is the role a Point Guard plays on Offense, we will have <span id="notice-me">Offense = true</span>.  
+    That means that the Point Guard plays this role <span id="notice-me">While </span> they are on <span id="notice-me">Offense</span>.<br><br>
+    When <span id="notice-me">Offense = false</span>, that means they are on Defense so their role would be different.<br><br><span id="notice-me2">For Your Point Guard Code:</span><br>&#x25cf; Modify the While statement to show that this code is followed While Offense is true.<br>&#x25cf; Complete the first "if" statement, and add additional "else if" statements, to have the Point Guard carry out actions under different conditions: &nbsp teamMateIsOpen,&nbsp  ! teamMateIsOpen, &nbsp openShot.</span>
+</div>
+<!-- <div id="see-codes" onmouseover="showYourCode()">The user would enter their code in this panel— with the support of a bank of code blocks at the bottom and predictive text— but for Demo Purposes: click on the white lines to show each code block & double click the white lines to reset them.</div> -->
+<div id="codeblock1"  onclick="showTrue()" ondblclick="hideTrue()">While<span id="white">(</span><span id="hidden">true</span><span id="white">)</span><span id="big-bracket">&nbsp {</span></div>
+<div id="codeblock2"  onclick="showCode2()" ondblclick="hideCode2()">if &nbsp<span id="white2">(condition)</span>
+  <span id="medium-bracket">&nbsp {</span>
+  <br>
+  <span id="hidden2">passTheBall( );</span>
+  <br>
+  <span id="medium-bracket">&nbsp }</span>
+</div>
+<div id="codeblock3"  onclick="showCode3()" ondblclick="hideCode3()">
+    <span id="else-if1">else if &nbsp</span>
+    <span id="white3"> (condition)</span>
+    <span id="medium-bracket">&nbsp {</span>
+    <br>
+    <span id ="dribble2" >dribbleTheBall( );</span>
+    <br>
+    <span id="medium-bracket">&nbsp }</span>
+</div>
+<div id="codeblock4"  onclick="showCode4()" ondblclick="hideCode4()">
+    <span id="else-if2">else if &nbsp</span>
+    <span id="white4"> (condition)</span>
+    <span id="medium-bracket">&nbsp {</span>
+    <br>
+    <span id="shot2">takeTheShot( );</span>
+    <br>
+    <span id="medium-bracket">&nbsp }</span>
+    <span id="big-bracket">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp }</span>
+</div>
+
+
+<div id="please-work" onclick="closeWork()" onmouseleave=closeWork()>
+  <a id="close-box" href="">X</a>
+  <br>
+    If the user forgets to include "true" in their "While" statement, the video shows the point guard dribbling the ball up the court, then
+    the point guard stalls and the ball is stolen (turnover).  Next, a commentator makes a comment such as, "Wow, it is like [player name] 
+    forgot they were playing offense" as the video fades and the "screen" is clicked off, finally the code block flashes on and off a few times.  
+    This is supposed to signal to the user that there is an error in that code block that is preventing the Point Guard from getting the Offense 
+    in motion.
+</div>
+
+<div id="work-again" onclick="closeAgain()" onmouseleave=closeAgain()>
+  <a id="close-box" href="">X</a>
+  <br>
+  The user would have the option of running their code one code block at a time; a [potential] additional feature would be to 
+  include something that resembles the console, which would allow the user to track the commands as they execute: the command 
+  at play [in their code] would be highlighted.
+</div>
+
+<div id="keep-working" onclick="closeKeep()" onmouseleave="closeKeep()">
+    <a id="close-box" href="">X</a>
+  <br>
+  Concept: different videos appear on the screen depending on the error.  The theme of the videos is that they show the
+  unintended consequences of their error(s) without the game haulting completely—unless there is a syntax error; if that 
+  is the case, a whistle blows (i.e. a "foul" is called at the point of the error).  The following is an example of what 
+  might occur when their is a logic error: let's say that for the first if statement, instead of,<br> "if teamMateIsOpen 
+  {  passTheBall( ) &nbsp}", the user put <br>"if teamMateIsOpen { dribbleTheBall( ) &nbsp}".  The video might show the 
+  point guard dribbling the ball while an open teammate tries to signal (possibly by waving their arms) that they are open.  
+  The Offensive play would continue, but would ultimately be unsuccessful.
+</div>
+
+<div id="still-working" onclick="hideStill()" onmouseleave="hideStill()">
+  <a id="close-box" href="">X</a>
+  <br>
+  Another potential feature that could be offered, would be to have some sort of code visualizer—something similar to
+  <a class="python" href="http://pythontutor.com/visualize.html#mode=edit">Python Tutor</a>.  
+  It would execute their code in an input output format so that the user could see exactly 
+  where the error in the occurred, along with an explanation of why it occurred.  If the 
+  user chose to use this feature while running their code, they would have to answer a 
+  question at the end that corresponds with the that block's concept (as means to reinforce
+  the concept(s) and assess a user's knowledge of the concept after receving support).<br><br>
+  <!-- CLICK ON THE X TO CLOSE THIS BOX. -->
+</div>
+
+
+<!-- <div id="" -->
+<!-- <div id="keep-working">Can Lightning Strike Twice?</div> -->
+
+<!-- <div id="title2" onclick="showSetUp()" ondblclick="hideSetUp()"><span id="emphasis2">{</span></div> -->
+<!-- <div id="set-up">var down=1<br><br>let down &lt 5= true<br><br>While(true)</div>
+<div class="wrap-up">
+  <div class="main-nav" oncontextmenu="showFunction()">Algorithm<span><img id="arrow-down"src="img/drop-down-arrow.png"/></span></div>
+  <ul id="list-items">
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing11" ondblclick="hideStuck()" onclick="showStuck()"><span id="emphasis6">func qbScramble( ) &nbsp<span id="emphasis2">{</span><br><br></div></li>
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing12" ondblclick="hidePocket()" onclick="showPocket()">leavePocket ( )</div></li>
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing5"ondblclick="coverOpen()" onclick="showOpen()">if foundOpening<span id="emphasis3"> {</span></div></li> 
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing21" ondblclick="hideGain()" onclick="showGain()">runGainYards( ) &nbsp<span id="emphasis3">}</span></div></li>
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing17"ondblclick="coverBounds()" onclick="showBounds()"><span id="emphasis6">else </span><span id="emphasis3"> {</span>runOutOfBounds( ) <span id="emphasis3"> }</span><span id="emphasis2"> }</span></div></li> 
+  </ul>
+</div> -->
+
+<!-- <div class="wrap-up2">
+  <div class="main-nav2" oncontextmenu="showFunction()">Commands<span><img id="arrow-down"src="img/drop-down-arrow.png"/></span></div>
+  <ul id="list-items">
+
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing32" ondblclick="hideR()" onclick="showR()" oncontextmenu="remove(this.id)">if receiverIsOpen &nbsp<span id="emphasis3">{</span></div></li>
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing25"ondblclick="hideThrowPass()" onclick="showThrowPass()" oncontextmenu="remove(this.id)">throwPassToReceiver( )<span id="emphasis3"> }</span></div></li> 
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing31" ondblclick="hideElseHand()" onclick="showElseHand()" oncontextmenu="remove(this.id)">else if ! receiverIsOpen && runningBackIsOpen &nbsp<span id="emphasis3">{</span></div></li>
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing27"ondblclick="hideHandBack()" onclick="showHandBack()" oncontextmenu="remove(this.id)">handOffOrPassToBack( )<span id="emphasis3"> }</span></div></li> 
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing47"ondblclick="hideNot()" onclick="showNot()" oncontextmenu="remove(this.id)">else if ! receiverIsOpen && <br>! runningBackIsOpen &nbsp<span id="emphasis3"> {</span></div></li> 
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing44"ondblclick="hideScramble()" onclick="showScramble()" oncontextmenu="remove(this.id)">qbScramble( ) &nbsp<span id="emphasis3"> }</span></div></li> 
+      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing39"ondblclick="hideDown()" onclick="showDown()" oncontextmenu="remove(this.id)">down +=1</div></li> 
+  </ul>
+</div> -->
+
+
+  <!-- <a id="back" href= "index2.html"><img id="rewind" src="img/rewind.png"></a> -->
+  <a id="next" href= "index2.html"><img id="forward" src="img/fast-forward.png"></a>
+</div>
+<!-- <div class="drop-box" id="drop-box1" ondrop="drop(event)" ondragover="allowDrop(event)" oncontextmenu=""></div>
+<div class="drop-box" id="drop-box3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="drop-box" id="drop-box4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="drop-box" id="drop-box15" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="drop-box" id="drop-box16" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="drop-box" id="drop-box25" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="drop-box" id="drop-box28" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
+<!-- <div id="wilson1" onclick="showWRPlay()" ondblclick="hideWRPlay()"><img class="wilson1" src="img/wilson.png"></div> -->
+
+
+
+
+<!-- LEAVE GREEN partial -->
+<script src="ihover-gh-pages/dist/scripts/app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<script type = "text/javascript"
+      src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+  </script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="./script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+</body>
+</html>
