@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Coding2K</title>
+  <title>Swift Sports</title>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
   <!-- <link rel="stylesheet" href="./style3.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -116,7 +116,7 @@
       <span style="font-weight:bold;">juggleBall( )</span><img id="juggle" src="img/spring-square.png">
     </div>
     
-    <div id="juggle-video">
+    <div id="juggle-video" onclick="showClip()">
       <div id="how-to-juggle">Juggling the Ball</div>
       <img id="clip" src="img/video-clip.png">
     </div>
@@ -153,7 +153,16 @@
       <div class="play">scoreGoal( )</div>
     </div>
 </div>
-
+<div id="new-command">
+  <div id="exit" onclick="hideClip()">X</div> 
+  <div id="move-intro">New Command</div>
+  <div id="move-title">juggleBall( )</div>
+  <img id="athletes" src="img/juggle_is_real.png" onmouseover="showCaption()" onmouseleave="hideCaption()">
+  <div id="video-caption">A video clip would play: showing football(a.k.a. soccer) players juggling the ball and explains the purpose of it.  
+    Then, the clip would shows what happens when the juggleBall( ) command is used called in the activity.</div>
+  <div id="the-move1"><span id="ta-da">"Juggling the Ball</span> is when a player moves the ball by bouncing it off of their leg or upper body.
+  Juggling the Ball lifts the ball off of the ground, making it harder for the players on the other team to kick the ball away from them."</div>
+</div>
 <!-- <div id="execute"> -->
   
 

@@ -893,6 +893,101 @@ left:62.5%;
       width:650px;
       border: inset 5px #eee;
     }
+
+    #new-command{
+      display: none;
+      /* display:flex; */
+      flex-direction:column;
+      position:absolute;
+      top:170px;
+      left:35%;
+      height:450px;
+      width:650px;
+      /* border:solid 2px lime; */
+      border: 3px inset rgba(0, 0, 0 , 0.2);
+      border-radius: 10px;
+      background-color:gainsboro;
+      font-family:'Montserrat', sans-serif;
+      font-size:10pt;
+      color: #2a2a2a;
+    }
+    #exit{
+      font-family:'Montserrat', sans-serif;
+      font-size:12pt;
+      font-weight:bold;
+      color: #8c8c8c;
+      /* float:right; */
+      margin-left:620px;
+      margin-top:10px;
+    }
+    #move-intro{
+      font: 16px/1 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: #2a2a2a;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+    #move-title{
+      font-family:'Montserrat', sans-serif;
+      font-size:12pt;
+      font-weight:bold;
+      color: #2a2a2a;
+      text-align: center;
+      margin-top:10px;
+      /* margin-left:15px; */
+    }
+
+    #athletes{
+      height:250px;
+      width:240px;
+      align-items: center;
+      border:inset 2px #2a2a2a;
+      margin-top:25px;
+      margin-left:30.5%;
+    }
+    #the-move1{
+      font-family:'Montserrat', sans-serif;
+      font-size:11pt;
+      font-style: italic;
+      color: #2a2a2a;
+      margin-left:18px;
+      margin-top:12px;
+      line-height: 1.6;
+      /* margin-bottom:15px; */
+    }
+
+    #video-caption{
+      display:none;
+      position:absolute;
+      top:125px;
+      left:69%;
+      padding:15px;
+      font-family:'Montserrat', sans-serif;
+      font-size:10pt;
+      height:180px;
+      width:205px;
+      /* background-color:white; */
+      color: #2a2a2a;
+      line-height: 1.3;
+      /* border:inset 1px #2a2a2a; */
+    }
+
+    #clip:hover{
+      -webkit-transform:scale(1.3);
+      transform:scale(1.3);
+    }
+    /* #the-move2{
+      font-family:'Montserrat', sans-serif;
+      font-size:11pt;
+      font-style: italic;
+      color: #2a2a2a;
+      margin-left:25px;
+    } */
+
+    #ta-da{
+      font-weight:bold;
+    }
     #field{
       height:610px;
       width:640px;

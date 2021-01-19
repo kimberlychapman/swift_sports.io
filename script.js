@@ -52,6 +52,22 @@ $(document).ready(function() {
     // document.getElementById('trick').style.textDecorationColor="#eee";
   }
 
+  function showCaption(){
+    document.getElementById('video-caption').style.display="block";
+  }
+
+  function hideCaption(){
+    document.getElementById('video-caption').style.display="none";
+  }
+  
+  function showClip(){
+    document.getElementById('new-command').style.display="flex";
+  }
+
+  function hideClip(){
+    document.getElementById('new-command').style.display="none";
+  }
+
   function toggleSwitch(){
     var checkBox = document.getElementById("switch");
     var task = document.getElementById('task');
