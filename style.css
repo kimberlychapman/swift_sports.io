@@ -109,13 +109,13 @@ body {
   color:#2a2a2a;
 }
 .nav li a{
-  height:70px;
+  height:50px;
   position: relative;
   display: flex;
   flex-direction:row;
   padding: 15px 15px 15px 20px;
   font-size: 13pt;
-  color: dodgerblue;
+  color: #2a2a2a;
   border-bottom:2px solid rgba(0, 0, 0 , 0.2);
   /* border-bottom: 1px solid #222; */
   font-family:'Montserrat', sans-serif;
@@ -141,7 +141,19 @@ body {
   left: 20px;
 }
 
-
+.padded{
+  margin-top:15px;
+  height:70px;
+  position: relative;
+  display: flex;
+  flex-direction:row;
+  padding: 15px 15px 15px 20px;
+  font-size: 13pt;
+  color: #2a2a2a;
+  /* border-bottom:2px solid rgba(0, 0, 0 , 0.2); */
+  /* border-bottom: 1px solid #222; */
+  font-family:'Montserrat', sans-serif
+}
 
 
 
