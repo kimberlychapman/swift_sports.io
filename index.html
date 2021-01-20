@@ -63,22 +63,22 @@
 
       <!-- <a id="test" onclick=countLoops() ondblclick=totalLoops()>var down=1</a> -->
       <a class="padded"></a>
-      <a>moveForward( )</a>
-      <a>moveForward( )</a>
-      <a>proSkill( )</a>
-      <a>turnRight( )</a>
-      <a>moveForward( )</a>
-      <a>moveForward( )</a>
-      <a>turnLeft( )</a>
-      <a>moveForward( )</a>
-      <a>juggleBall( )</a>
-      <a>moveForward( )</a>
-      <a>turnLeft( )</a>
-      <a>moveForward( )</a>
-      <a>moveForward( )</a>
-      <a>turnRight( )</a>
-      <a>moveForward( )</a>
-      <a>scoreGoal( )</a>
+      <a id="step-0" onmouseover="showInspect()" onmouseleave="hideInspect()"><img id="play0" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-1" onmouseover="showPlayOne()" onmouseleave="hidePlayOne()"><img id="play1" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-2" onmouseover="showPlayTwo()" onmouseleave="hidePlayTwo()"><img id="play2" src="img/play-xcode.png">proSkill( )</a>
+      <a id="step-3" onmouseover="showPlayThree()" onmouseleave="hidePlayThree()"><img id="play3" src="img/play-xcode.png">turnRight( )</a>
+      <a id="step-4" onmouseover="showPlayFour()" onmouseleave="hidePlayFour()"><img id="play4" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-5" onmouseover="showPlayFive()" onmouseleave="hidePlayFive()"><img id="play5" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-6" onmouseover="showPlaySix()" onmouseleave="hidePlaySix()"><img id="play6" src="img/play-xcode.png">turnLeft( )</a>
+      <a id="step-7" onmouseover="showPlaySeven()" onmouseleave="hidePlaySeven()"><img id="play7" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-8" onmouseover="showPlayEight()" onmouseleave="hidePlayEight()"><img id="play8" src="img/play-xcode.png">juggleBall( )</a>
+      <a id="step-9" onmouseover="showPlayNine()" onmouseleave="hidePlayNine()"><img id="play9" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-10" onmouseover="showPlayTen()" onmouseleave="hidePlayTen()"><img id="play10" src="img/play-xcode.png">turnLeft( )</a>
+      <a id="step-11" onmouseover="showPlayEleven()" onmouseleave="hidePlayEleven()"><img id="play11" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-12" onmouseover="showPlayTwelve()" onmouseleave="hidePlayTwelve()"><img id="play12" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-13" onmouseover="showPlayThirteen()" onmouseleave="hidePlayThirteen()"><img id="play13" src="img/play-xcode.png">turnRight( )</a>
+      <a id="step-14" onmouseover="showPlayFourteen()" onmouseleave="hidePlayFourteen()"><img id="play14" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-15" onmouseover="showPlayFifteen()" onmouseleave="hidePlayFifteen()"><img id="play15" src="img/play-xcode.png">scoreGoal( )</a>
 
 
 
@@ -102,7 +102,7 @@
   <div id="play-pg">
     <div id="curriculum">Swift Sports 1</div>
     <div id="sub-heading">Juggle the Ball</div>
-    <div id="inspect">Instead of the grey carrot in "Step through my Code", the current step will be highlighted, and the play button (similar to the one in Xcode) will appear.</div>
+    <div id="inspect">"Step through my Code": The <span style="color:gray; font-weight:bold; font-size:16pt;">&gt</span> is replaced by the play button that appears in Xcode during Live View, and the commands highlight as the code executes.</div>
   </div>
   <input type="checkbox" id="switch" onclick="toggleSwitch()"/><label for="switch">Toggle</label>
 </div>
@@ -162,9 +162,9 @@
   <div id="exit" onclick="hideClip()">X</div> 
   <div id="move-intro">New Command</div>
   <div id="move-title">juggleBall( )</div>
-  <img id="athletes" src="img/juggle_is_real.png" onmouseover="showCaption()" onmouseleave="hideCaption()">
-  <div id="video-caption">A video clip would play: showing football(a.k.a. soccer) players juggling the ball and explains the purpose of it.  
-    Then, the clip would shows what happens when the juggleBall( ) command is used called in the activity.</div>
+  <img id="athletes" src="img/juggle_is_real.png">
+  <div id="video-caption">Video Clip: shows football (a.k.a. soccer) players juggling the ball, and explains why players do it.  
+    Then, the clip shows what occurs on the screen when the juggleBall( ) command is executed.</div>
   <div id="the-move1"><span id="ta-da">"Juggling the Ball</span> is when a player moves the ball by bouncing it off of their leg or upper body.
   Juggling the Ball lifts the ball off of the ground, making it harder for the players on the other team to kick the ball away from them."</div>
 </div>

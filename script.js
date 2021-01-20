@@ -52,13 +52,13 @@ $(document).ready(function() {
     // document.getElementById('trick').style.textDecorationColor="#eee";
   }
 
-  function showCaption(){
-    document.getElementById('video-caption').style.display="block";
-  }
+  // function showCaption(){
+  //   document.getElementById('video-caption').style.display="block";
+  // }
 
-  function hideCaption(){
-    document.getElementById('video-caption').style.display="none";
-  }
+  // function hideCaption(){
+  //   document.getElementById('video-caption').style.display="none";
+  // }
   
   function showClip(){
     document.getElementById('new-command').style.display="flex";
@@ -67,6 +67,141 @@ $(document).ready(function() {
   function hideClip(){
     document.getElementById('new-command').style.display="none";
   }
+
+  function showInspect(){
+    document.getElementById('inspect').style.display="block";
+    document.getElementById('play0').style.display="block";
+  }
+
+  function hideInspect(){
+    document.getElementById('inspect').style.display="none";
+    document.getElementById('play0').style.display="none";
+  }
+
+  function showPlayOne(){
+    document.getElementById('play1').style.display="block";
+}
+
+function hidePlayOne(){
+  document.getElementById('play1').style.display="none";
+}
+
+function showPlayTwo(){
+  document.getElementById('play2').style.display="block";
+}
+
+function hidePlayTwo(){
+document.getElementById('play2').style.display="none";
+}
+
+function showPlayThree(){
+  document.getElementById('play3').style.display="block";
+}
+
+function hidePlayThree(){
+document.getElementById('play3').style.display="none";
+}
+
+function showPlayFour(){
+  document.getElementById('play4').style.display="block";
+}
+
+function hidePlayFour(){
+document.getElementById('play4').style.display="none";
+}
+
+function showPlayFive(){
+  document.getElementById('play5').style.display="block";
+}
+
+function hidePlayFive(){
+document.getElementById('play5').style.display="none";
+}
+
+function showPlaySix(){
+  document.getElementById('play6').style.display="block";
+}
+
+function hidePlaySix(){
+document.getElementById('play6').style.display="none";
+}
+
+function showPlaySeven(){
+  document.getElementById('play7').style.display="block";
+}
+
+function hidePlaySeven(){
+document.getElementById('play7').style.display="none";
+}
+
+function showPlayEight(){
+  document.getElementById('play8').style.display="block";
+}
+
+function hidePlayEight(){
+document.getElementById('play8').style.display="none";
+}
+
+function showPlayNine(){
+  document.getElementById('play9').style.display="block";
+}
+
+function hidePlayNine(){
+document.getElementById('play9').style.display="none";
+}
+
+function showPlayTen(){
+  document.getElementById('play10').style.display="block";
+}
+
+function hidePlayTen(){
+document.getElementById('play10').style.display="none";
+}
+
+function showPlayEleven(){
+  document.getElementById('play11').style.display="block";
+}
+
+function hidePlayEleven(){
+document.getElementById('play11').style.display="none";
+}
+
+
+function showPlayTwelve(){
+  document.getElementById('play12').style.display="block";
+}
+
+function hidePlayTwelve(){
+document.getElementById('play12').style.display="none";
+}
+
+function showPlayThirteen(){
+  document.getElementById('play13').style.display="block";
+}
+
+function hidePlayThirteen(){
+document.getElementById('play13').style.display="none";
+}
+
+function showPlayFourteen(){
+  document.getElementById('play14').style.display="block";
+}
+
+function hidePlayFourteen(){
+document.getElementById('play14').style.display="none";
+}
+
+function showPlayFifteen(){
+  document.getElementById('play15').style.display="block";
+}
+
+function hidePlayFifteen(){
+document.getElementById('play15').style.display="none";
+}
+
+
+
+
 
   function toggleSwitch(){
     var checkBox = document.getElementById("switch");
