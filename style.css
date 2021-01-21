@@ -1320,6 +1320,71 @@ margin-left:20px;
     padding:10px;
     padding-left:25px;
 }
+
+.run-options{
+  position:absolute;
+  top: 740px;
+  left:35%;
+  height:85px;
+  width:650px;
+  display:flex;
+  flex-direction:row;
+  font-family:'Montserrat', sans-serif;
+  font-size:8pt;
+  color: #2a2a2a;
+  font-weight:bold;
+  /* border: 2px inset lime; */
+}
+
+#fastest,
+#faster,
+#run-btn,
+#step-code-btn,
+#step-slower{
+  display:flex;
+  flex-direction:column;
+  /* border:2px solid black; */
+  width:130px;
+}
+#btn-image{
+  /* border:2px solid magenta; */
+  height:65px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn-name{
+  height:20px;
+  /* border-bottom: 2px solid aqua; */
+  text-align: center;
+  /* display:flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+#button-pic{
+  height:25px;
+}
+
+#button-pic2,
+#button-pic3,
+#button-pic4{
+  height:40px;
+}
+
+#button-pic5{
+  height:35px;
+}
+
+#button-pic:hover,
+#button-pic2:hover,
+#button-pic3:hover,
+#button-pic4:hover,
+#button-pic5:hover{
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
 #small{
     font-size:8.5pt;
 }
