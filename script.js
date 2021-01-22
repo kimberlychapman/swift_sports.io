@@ -214,8 +214,15 @@ document.getElementById('play15').style.display="none";
     }
   }
 
+function lightsOn(){
+  document.getElementById('lightbulb').src="img/light-on.png";
+  document.getElementById('go-ahead').style.color="black";
+}
 
-
+function lightsOff(){
+  document.getElementById('lightbulb').src="img/light-off.png";
+  document.getElementById('go-ahead').style.color="transparent";
+}
 
   function showTrue(){
       document.getElementById('hidden').style.color="dodgerblue";

@@ -55,22 +55,27 @@
 
       <!-- <a id="test" onclick=countLoops() ondblclick=totalLoops()>var down=1</a> -->
       <a class="padded"></a>
-      <a id="step-0" onmouseover="showInspect()" onmouseleave="hideInspect()"><img id="play0" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-0" onmouseover="showInspect()" onmouseleave="hideInspect()"><img id="play0" src="img/play-xcode.png">
+        <span style="font-weight:bold;">func</span><span style="font-size:14pt;">&nbsp getRight</span>
+        <span style="font-weight:bold; font-size: 14pt;"> &nbsp {</span>
+      </a>
       <a id="step-1" onmouseover="showPlayOne()" onmouseleave="hidePlayOne()"><img id="play1" src="img/play-xcode.png">moveForward( )</a>
-      <a id="step-2" onmouseover="showPlayTwo()" onmouseleave="hidePlayTwo()"><img id="play2" src="img/play-xcode.png">proSkill( )</a>
-      <a id="step-3" onmouseover="showPlayThree()" onmouseleave="hidePlayThree()"><img id="play3" src="img/play-xcode.png">turnRight( )</a>
-      <a id="step-4" onmouseover="showPlayFour()" onmouseleave="hidePlayFour()"><img id="play4" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-2" onmouseover="showPlayTwo()" onmouseleave="hidePlayTwo()"><img id="play2" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-3" onmouseover="showPlayThree()" onmouseleave="hidePlayThree()"><img id="play3" src="img/play-xcode.png">proSkill( )</a>
+      <a id="step-4" onmouseover="showPlayFour()" onmouseleave="hidePlayFour()"><img id="play4" src="img/play-xcode.png">turnRight( )</a>
       <a id="step-5" onmouseover="showPlayFive()" onmouseleave="hidePlayFive()"><img id="play5" src="img/play-xcode.png">moveForward( )</a>
       <a id="step-6" onmouseover="showPlaySix()" onmouseleave="hidePlaySix()"><img id="play6" src="img/play-xcode.png">turnLeft( )</a>
-      <a id="step-7" onmouseover="showPlaySeven()" onmouseleave="hidePlaySeven()"><img id="play7" src="img/play-xcode.png">moveForward( )</a>
-      <a id="step-8" onmouseover="showPlayEight()" onmouseleave="hidePlayEight()"><img id="play8" src="img/play-xcode.png">juggleBall( )</a>
-      <a id="step-9" onmouseover="showPlayNine()" onmouseleave="hidePlayNine()"><img id="play9" src="img/play-xcode.png">moveForward( )</a>
+      <a id="step-7" onmouseover="showPlaySeven()" onmouseleave="hidePlaySeven()"><img id="play7" src="img/play-xcode.png">
+        <span style="font-size:14pt; font-weight:bold;">}</span></a>
+      <a id="step-8" onmouseover="showPlayEight()" onmouseleave="hidePlayEight()"><img id="play8" src="img/play-xcode.png">
+        <span style="font-size:14pt;">getRight( )</span></a>
+      <!-- <a id="step-9" onmouseover="showPlayNine()" onmouseleave="hidePlayNine()"><img id="play9" src="img/play-xcode.png">moveForward( )</a>
       <a id="step-10" onmouseover="showPlayTen()" onmouseleave="hidePlayTen()"><img id="play10" src="img/play-xcode.png">turnLeft( )</a>
       <a id="step-11" onmouseover="showPlayEleven()" onmouseleave="hidePlayEleven()"><img id="play11" src="img/play-xcode.png">moveForward( )</a>
       <a id="step-12" onmouseover="showPlayTwelve()" onmouseleave="hidePlayTwelve()"><img id="play12" src="img/play-xcode.png">moveForward( )</a>
       <a id="step-13" onmouseover="showPlayThirteen()" onmouseleave="hidePlayThirteen()"><img id="play13" src="img/play-xcode.png">turnRight( )</a>
       <a id="step-14" onmouseover="showPlayFourteen()" onmouseleave="hidePlayFourteen()"><img id="play14" src="img/play-xcode.png">moveForward( )</a>
-      <a id="step-15" onmouseover="showPlayFifteen()" onmouseleave="hidePlayFifteen()"><img id="play15" src="img/play-xcode.png">scoreGoal( )</a>
+      <a id="step-15" onmouseover="showPlayFifteen()" onmouseleave="hidePlayFifteen()"><img id="play15" src="img/play-xcode.png">scoreGoal( )</a> -->
 
 
 
@@ -114,42 +119,147 @@
       <div id="how-to-juggle">Function for a Repeating Pattern</div>
       <img id="clip" src="img/video-clip.png">
     </div>
-    <!-- <div>
-      1. Enter commands to move Byte to the pro square, then do a 
-      <span id="trick" onmouseover="trickStyle()" onmouseleave="noTrickStyle()">pro skill.</span>
+    <div>
+      1. Write a function for the commands that repeat; you can name your function anything you like!  
+      <!-- <span id="trick" onmouseover="trickStyle()" onmouseleave="noTrickStyle()">pro skill.</span> -->
       <br>
       <br>
-      2. Continue entering commands to move Byte to the juggle square, then <span id="juggling" onmouseover="juggleStyle()" onmouseleave="noJuggleStyle()">juggle the ball</span>.
+      2. For this function, you will not have Byte score a goal— you just want to get them right in front of the goal.
       <br>
       <br>
-      3. Finally, <span id="score" onmouseover="scoreStyle()" onmouseLeave="noScoreStyle()">score a goal.</span>
-    </div> -->
+      3. Once you have written your function, "call" your function by entering it in the space below your function.
+    </div>
   </div>
 
       <div id="line"></div>
     
     <div id="play-code">
-        <div class="play">func getRight {</div>
+        <div class="player"><span style="font-weight:bold;">func</span> getRight {</div>
         <div class="play">moveForward( )</div>
         <div class="play">moveForward( )</div>
         <div class="play">proSkill( )</div>
         <div class="play">turnRight( )</div>
         <div class="play">moveForward( )</div>
         <div class="play">turnLeft( )</div>
-        <div class="play">}</div>
-        <br>
-        <div class="play">getRight( )</div>
+        <div class="player">}</div>
+        <div class="player">getRight( )</div>
     </div>
 </div>
 <div id="new-command">
   <div id="exit" onclick="hideClip()">X</div> 
   <div id="move-intro">Function</div>
   <div id="move-title">Writing a Function for a Repeating Pattern</div>
-  <img id="patterns" src="img/patterns.png">
+  <img id="patterns" src="img/pattern-functions.png">
+  <div id="vid-play">
+    <img id="role-tape" src="img/play-tape.png">
+  </div>
   <!-- <div id="video-caption">Video Clip: TBA.</div> -->
   <!-- <div id="the-move1"><span id="ta-da">"Juggling the Ball</span> is when a player moves the ball by bouncing it off of their leg or upper body.
   Juggling the Ball lifts the ball off of the ground, making it harder for the players on the other team to kick the ball away from them."</div> -->
 </div>
+
+<div id="slides">
+    <div class="imagenes">
+      <div class="imagen">
+            <div id="text">The following scenario is used to explain how to write a function for a repeating pattern,
+            and why it is "faster" than writing out every single command.
+            </div>
+      </div>
+      <div class="imagen">
+          <div id="text2">Students are volunteering to pack lunches: a group of younger students shows up to help;
+              an older student walks over to the group to give them instructions on how to pack the lunches.
+          </div>
+      </div>
+      <div class="imagen">
+          <div id="text3">The older student leads the group to a table that has a bunch of open lunch bags (in a row)
+              and 3 containers: one holding sandwiches, one holding apples, and one holding cookies.
+          </div>
+      </div>
+      <div class="imagen">
+        <div id="text4">The older student tells them, "Start here and put one sandwich in the bag, one apple in the bag, and one cookie
+            in the bag."
+            <br>
+            <br>
+            The older student keeps walking down— along the row of bags, repeating: "one sandwich, one apple, one cookie".
+        </div>
+      </div>
+        <div class="imagen">
+          <div id="text5">As the older student continues repeating themselves, more empty bags continue to be added to the table,
+              which makes the bags at the opposite end of the table fall off.
+              <br>
+              <br>
+              While this is happening, the top of the screen fills up with the words "sandwich, apple, cookie" (repeating).
+          </div>
+        </div>
+        <div class="imagen">
+          <div id="text6">Eventually, the older student stops talking and asks the group of younger students if they have any questions;
+              one of the younger students chimes in and says, "that sounds like a lot of steps...I'm confused."
+          </div>
+        </div>
+        <div class="imagen">
+          <div id="text7">The older student says to themselves, "there has to be an easier way to explain this".  Then their
+              thinking is modeled outloud:
+              <br>
+              <br>
+              "Okay, so there are a lot of bags, but each bag gets the same things: one sandwich, one apple, and one cookie.  So I can
+              just tell them to put a sandwich, an apple, and a cookie in each bag.  Then, they can just keep following the pattern until
+              all of the bags are filled."
+          </div>
+        </div>
+        <div class="imagen">
+          <div id="text8">The older student tells the group of younger students the repeating pattern to follow, and the younger
+              student that spoke before says, "Oh...okay that makes sense."
+              <br>
+              <br>
+              Finally, as the younger students stand there looking around, another older student "calls" the group over to their table, and tells them, "Come on, start filling the bags".
+          </div>
+        </div>
+        <div class="imagen">
+            <div id="text9">The pattern is written out in phrases first, and then using swift syntax.  Finally, calling a function is explained
+              by referring to the part in the scenario when the group stood there until the other older student called them over and told
+              them to start filling up the bags.
+            </div>
+        </div>
+    </div>
+    
+    <div class="botones">
+      <button onclick="plusSlides(-1)" class="arrow left" id="left">&#10094;</button>
+      <button onclick="plusSlides(1)" class="arrow right" id="right">&#10095;</button>
+      <div onclick="hideClip()" id="stop"><img id="stop-btn"src="img/stop.png"></div>
+    </div>
+  </div>
+</div>
+
+  <!-- <div id="stop" onclick="hideClip()">
+    <img id="stop-btn" src="img/stop.png">
+  </div> -->
+
+
+
+<!-- 
+  <ul id="overview">
+    <li>The following scenario is used to explain how to write a function for a repeating pattern, and why it is "faster" than writing out every single command.</li>
+    <li>Students are volunteering to pack lunches; a group of younger students show up to help and an older student walks over to them to explain what they need to do.</li>
+    <li>In front of them is a table with a bunch of open lunch bags in a row, and 3 containers: one holding sandwiches, one holding apples, and one holding cookies.</li>
+    <li>The older student starts explaining— telling the group of younger students, "Start here and put one sandwich in the bag, one apple in the bag, and one cookie in the bag."  
+      The older student keeps walking down along the row of bags, repeating: "one sandwich, one apple, one cookie".</li>
+    <li>As the older student continues repeating themselves, more empty bags continue to be added to the table, which makes the bags at the end fall off of the table, and the top of the screen
+      keeps filling up with the words "sandwich, apple, cookie".
+    </li>
+    <li>Finally, the older student stops talking and asks the group of younger students if they have any questions; one of them says, "that sounds like a lot of steps...I'm confused."
+      The older student then thinks allowed, "there has to be an easier way to explain this".  Then their thinking is modeled outloud: "okay, so there a lot of bags but each bag gets the same things: one sandwich, one apple, and one cookie.  So I can just tell them to put a sandwich, an apple, and a cookie in each bag.  
+      Then they can just keep following that pattern until all of the bags are done."
+    </li>
+    <li>The older student tells the group of younger students the repeating pattern to follow, and the younger student that spoke before says, "Oh! Okay that makes sense."  Then the younger students stand there and another older student "calls" the group over to their table and tells them,
+      "start filling the bags".
+    </li>
+    <li>The scenario is written out in words first, then using swift syntax.  Finally, calling a function is explained by referring to the part in the scenario when the group stood there until the other 
+      older student called them over and told them to start filling up the bags.
+    </li>
+  </ul> -->
+
+
+
 
 <div class="run-options">
   <div id="fastest">
@@ -160,7 +270,7 @@
     <div id="btn-image"><img id="button-pic2" src="img/faster-btn.png"></div>
     <div id="btn-name">Run Faster</div>
   </div>
-  <div id="run-btn">
+  <div id="run-btn" onclick="lightsOn()" ondblclick="lightsOff()">
     <div id="btn-image"><img id="button-pic3" src="img/run-btn.png"></div>
     <div id="btn-name">Run Code</div>
   </div>
@@ -174,7 +284,22 @@
   </div>
 </div>
 
+
+<a id="go-back" href="index.html">
+  <img id="back-btn" src="img/back-btn.png">
+</a>
+
+<a id="go-on" href=index2.html>
+  <img id="lightbulb" src="img/light-off.png">
+  <div id="go-ahead">Go!</div>
+</a>
+
+  <!-- <div id="stop" onclick="hideClip()">
+    <img id="stop-btn" src="img/stop.png">
+  </div> -->
+
 <!-- LEAVE GREEN partial -->
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script2.js"></script> -->
 <script src="ihover-gh-pages/dist/scripts/app.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -184,6 +309,8 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script  src="./script2.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script><script  src="./script2.js"></script>
 
 
 </body>
