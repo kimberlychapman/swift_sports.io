@@ -153,7 +153,7 @@
       <div class="play">scoreGoal( )</div>
     </div>
 </div>
-<div id="new-command">
+<!-- <div id="new-command">
   <div id="exit" onclick="hideClip()">X</div> 
   <div id="move-intro">New Command</div>
   <div id="move-title">juggleBall( )</div>
@@ -162,11 +162,38 @@
     Then, the clip shows what occurs on the screen when the juggleBall( ) command is executed.</div>
   <div id="the-move1"><span id="ta-da">Juggling the Ball</span> is when a player moves the ball by bouncing it off of their leg or upper body.
   Juggling the Ball lifts the ball off of the ground, making it harder for the players on the other team to kick the ball away from them."</div>
+</div> -->
+
+<div id="slides">
+  <div class="imagenes">
+    <div class="imagen">
+          <div id="text">
+            <img id="top-players" src="img/juggle-is-real.png">
+          </div>
+            <span style="font-style:italic;"><span style="font-weight:bold;">Juggling the Ball</span> is when a player moves the ball by bouncing it off of their leg or upper body.
+            Juggling the Ball lifts the ball off of the ground, making it harder for the players on the other team to kick the ball away from them.</span>
+    </div>
+    <div class="imagen">
+      <div id="text2">
+        <img id="top-players2" src="img/juggle-is-real.png">
+      </div>
+        <div id= "align">The video clip shows football (a.k.a. soccer) players juggling the ball, and explains why players do it.</div>
+    </div>
+    <div class="imagen">
+      <div id="text3">
+        <img id="top-players3" src="img/juggle-is-real.png">
+      </div>
+        <div id= "align">Then, the clip shows what occurs on the screen when Byte executes the juggleBall( ) command.</div>
+    </div>
+  </div>
+
+  <div class="botones">
+    <button onclick="plusSlides(-1)" class="arrow left" id="left">&#10094;</button>
+    <button onclick="plusSlides(1)" class="arrow right" id="right">&#10095;</button>
+    <div onclick="hideClip()" id="stop"><img id="stop-btn"src="img/stop.png"></div>
+  </div>
 </div>
-
-
-
-
+</div>
 
 
 <div class="run-options">
@@ -198,99 +225,7 @@
   <div id="go-ahead">Go!</div>
 </a>
 
-<!-- <div id="execute"> -->
-  
 
-<!-- 
-<div id="please-work" onclick="closeWork()" onmouseleave=closeWork()>
-  <a id="close-box" href="">X</a>
-  <br>
-    If the user forgets to include "true" in their "While" statement, the video shows the point guard dribbling the ball up the court, then
-    the point guard stalls and the ball is stolen (turnover).  Next, a commentator makes a comment such as, "Wow, it is like [player name] 
-    forgot they were playing offense" as the video fades and the "screen" is clicked off, finally the code block flashes on and off a few times.  
-    This is supposed to signal to the user that there is an error in that code block that is preventing the Point Guard from getting the Offense 
-    in motion.
-</div> -->
-<!-- 
-<div id="work-again" onclick="closeAgain()" onmouseleave=closeAgain()>
-  <a id="close-box" href="">X</a>
-  <br>
-  The user would have the option of running their code one code block at a time; a [potential] additional feature would be to 
-  include something that resembles the console, which would allow the user to track the commands as they execute: the command 
-  at play [in their code] would be highlighted.
-</div> -->
-
-<!-- <div id="keep-working" onclick="closeKeep()" onmouseleave="closeKeep()">
-    <a id="close-box" href="">X</a>
-  <br>
-  Concept: different videos appear on the screen depending on the error.  The theme of the videos is that they show the
-  unintended consequences of their error(s) without the game haulting completely—unless there is a syntax error; if that 
-  is the case, a whistle blows (i.e. a "foul" is called at the point of the error).  The following is an example of what 
-  might occur when their is a logic error: let's say that for the first if statement, instead of,<br> "if teamMateIsOpen 
-  {  passTheBall( ) &nbsp}", the user put <br>"if teamMateIsOpen { dribbleTheBall( ) &nbsp}".  The video might show the 
-  point guard dribbling the ball while an open teammate tries to signal (possibly by waving their arms) that they are open.  
-  The Offensive play would continue, but would ultimately be unsuccessful.
-</div>
-
-<div id="still-working" onclick="hideStill()" onmouseleave="hideStill()">
-  <a id="close-box" href="">X</a>
-  <br>
-  Another potential feature that could be offered, would be to have some sort of code visualizer—something similar to
-  <a class="python" href="http://pythontutor.com/visualize.html#mode=edit">Python Tutor</a>.  
-  It would execute their code in an input output format so that the user could see exactly 
-  where the error in the occurred, along with an explanation of why it occurred.  If the 
-  user chose to use this feature while running their code, they would have to answer a 
-  question at the end that corresponds with the that block's concept (as means to reinforce
-  the concept(s) and assess a user's knowledge of the concept after receving support).<br><br> -->
-  <!-- CLICK ON THE X TO CLOSE THIS BOX. -->
-<!-- </div> -->
-
-
-<!-- <div id="" -->
-<!-- <div id="keep-working">Can Lightning Strike Twice?</div> -->
-
-<!-- <div id="title2" onclick="showSetUp()" ondblclick="hideSetUp()"><span id="emphasis2">{</span></div> -->
-<!-- <div id="set-up">var down=1<br><br>let down &lt 5= true<br><br>While(true)</div>
-<div class="wrap-up">
-  <div class="main-nav" oncontextmenu="showFunction()">Algorithm<span><img id="arrow-down"src="img/drop-down-arrow.png"/></span></div>
-  <ul id="list-items">
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing11" ondblclick="hideStuck()" onclick="showStuck()"><span id="emphasis6">func qbScramble( ) &nbsp<span id="emphasis2">{</span><br><br></div></li>
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing12" ondblclick="hidePocket()" onclick="showPocket()">leavePocket ( )</div></li>
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing5"ondblclick="coverOpen()" onclick="showOpen()">if foundOpening<span id="emphasis3"> {</span></div></li> 
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing21" ondblclick="hideGain()" onclick="showGain()">runGainYards( ) &nbsp<span id="emphasis3">}</span></div></li>
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing17"ondblclick="coverBounds()" onclick="showBounds()"><span id="emphasis6">else </span><span id="emphasis3"> {</span>runOutOfBounds( ) <span id="emphasis3"> }</span><span id="emphasis2"> }</span></div></li> 
-  </ul>
-</div> -->
-
-<!-- <div class="wrap-up2">
-  <div class="main-nav2" oncontextmenu="showFunction()">Commands<span><img id="arrow-down"src="img/drop-down-arrow.png"/></span></div>
-  <ul id="list-items">
-
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing32" ondblclick="hideR()" onclick="showR()" oncontextmenu="remove(this.id)">if receiverIsOpen &nbsp<span id="emphasis3">{</span></div></li>
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing25"ondblclick="hideThrowPass()" onclick="showThrowPass()" oncontextmenu="remove(this.id)">throwPassToReceiver( )<span id="emphasis3"> }</span></div></li> 
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing31" ondblclick="hideElseHand()" onclick="showElseHand()" oncontextmenu="remove(this.id)">else if ! receiverIsOpen && runningBackIsOpen &nbsp<span id="emphasis3">{</span></div></li>
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing27"ondblclick="hideHandBack()" onclick="showHandBack()" oncontextmenu="remove(this.id)">handOffOrPassToBack( )<span id="emphasis3"> }</span></div></li> 
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing47"ondblclick="hideNot()" onclick="showNot()" oncontextmenu="remove(this.id)">else if ! receiverIsOpen && <br>! runningBackIsOpen &nbsp<span id="emphasis3"> {</span></div></li> 
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing44"ondblclick="hideScramble()" onclick="showScramble()" oncontextmenu="remove(this.id)">qbScramble( ) &nbsp<span id="emphasis3"> }</span></div></li> 
-      <li id="across"><div class="thing" draggable="true" ondragstart="drag(event)" id="thing39"ondblclick="hideDown()" onclick="showDown()" oncontextmenu="remove(this.id)">down +=1</div></li> 
-  </ul>
-</div> -->
-
-
-  <!-- <a id="back" href= "index2.html"><img id="rewind" src="img/rewind.png"></a> -->
-  <!-- <a id="next" href= "index2.html"><img id="forward" src="img/fast-forward.png"></a>
-</div> -->
-
-
-
-<!-- <div class="drop-box" id="drop-box1" ondrop="drop(event)" ondragover="allowDrop(event)" oncontextmenu=""></div>
-<div class="drop-box" id="drop-box3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div class="drop-box" id="drop-box4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div class="drop-box" id="drop-box15" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div class="drop-box" id="drop-box16" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div class="drop-box" id="drop-box25" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div class="drop-box" id="drop-box28" ondrop="drop(event)" ondragover="allowDrop(event)"></div> -->
-<!-- <div id="wilson1" onclick="showWRPlay()" ondblclick="hideWRPlay()"><img class="wilson1" src="img/wilson.png"></div> -->
 
 
 

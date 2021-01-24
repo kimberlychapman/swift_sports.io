@@ -60,12 +60,39 @@ $(document).ready(function() {
   //   document.getElementById('video-caption').style.display="none";
   // }
   
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(number){
+    showSlides(slideIndex += number);
+  }
+  
+  function showSlides(number){
+    var i;
+    var imagenes = document.getElementsByClassName("imagen");
+    
+    if (number > imagenes.length) {
+      slideIndex = 1;
+    }
+    
+    if (number < 1) {
+      slideIndex = imagenes.length;
+    }
+    
+    for (i = 0; i < imagenes.length; i++) {
+        imagenes[i].style.display = "none";
+    }
+    imagenes[slideIndex-1].style.display = "block";
+   
+  }
+
+
   function showClip(){
-    document.getElementById('new-command').style.display="flex";
+    document.getElementById('slides').style.display="block";
   }
 
   function hideClip(){
-    document.getElementById('new-command').style.display="none";
+    document.getElementById('slides').style.display="none";
   }
 
   function showInspect(){
